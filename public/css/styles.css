@@ -1,3 +1,7 @@
+body {
+    min-height: 100vh;
+}
+
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -15,6 +19,7 @@
 
 .navbar-brand {
     color: gray;
+    cursor: pointer;
 }
 
 .navbar-nav {
@@ -38,9 +43,9 @@
 }
 
 .footer {
-	position: absolute;
+	/* position: absolute; */
 	text-align: center;
-	bottom: 0;
+	/* bottom: 0; */
 	width: 100%;
 	height: 60px;
 	background-color: #1abc9c;
